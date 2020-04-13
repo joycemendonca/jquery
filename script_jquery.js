@@ -12,4 +12,12 @@ $(function(){
     $('#vermelho').click(function(){
         $('p').css("color", "red");
     });
+
+   $('#desaparecer').click(function (){
+       $('#sumir').hide();       
+   })
+
+   $('#aparecer').click(function () {
+       $('#sumir').show();
+   })
 });
